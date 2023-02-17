@@ -1,13 +1,13 @@
 class Note {
-  int id;
-  String title;
-  String content;
-  String dateTimeEdited;
-  String dateTimeCreated;
+  int? id;
+  String? title;
+  String? content;
+  String? dateTimeEdited;
+  String? dateTimeCreated;
 
   Note({
-   required this.id,required this.title,required this.content, required this.dateTimeEdited,
-    required  this.dateTimeCreated
+    this.id, this.title, this.content,  this.dateTimeEdited,
+      this.dateTimeCreated
   });
 
   Map<String, dynamic> toMap() {

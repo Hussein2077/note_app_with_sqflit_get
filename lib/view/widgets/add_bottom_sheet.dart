@@ -51,7 +51,7 @@ class _CustomBttomSheetFormState extends State<CustomBttomSheetForm> {
           ),
           CustomTextFeild(
             hintText: 'content',
-            maxLines: 5,
+            maxLines: 500,
             onSaved: (val) {
               controller.onSavedSub(val: val,subTitle: subtitle!);
             },
